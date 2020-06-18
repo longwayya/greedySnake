@@ -16,7 +16,7 @@ let snakeDirection = null;
 let snakeBody = [];
 let food = {};
 let win = false;
-let score = scoreDOM.innerHTML;
+let score = 0;
 
 function isWin(score) {
   if (score === 897) {
@@ -75,6 +75,8 @@ function initSnakeBody() {
     item.classList.remove("snake");
   });
   snakeBody = [];
+  score = 0;
+  scoreDOM.innerHTML = score;
   //初始得到蛇头  随机得到3个格子作为蛇身
   let { x, y } = randomXY();
   for (let i = 0; i < 29; i++) {
