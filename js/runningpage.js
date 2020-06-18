@@ -56,13 +56,14 @@ function dealPlace({ x, y }) {
 
 function createFood() {
   function getXY() {
+    let flag = null;
     let temp = dealPlace(randomXY());
     snakeBody.forEach((ele) => {
       if (ele.x === temp.x && ele.y === temp.y) {
-        return getXY();
+        flag = 1;
       }
     });
-    return temp;
+    return flag === 1 ? getXY() : temp;
   }
   food = getXY();
   const foodDOM = document.querySelector(`#x${food.x}y${food.y}`);

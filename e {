@@ -1,0 +1,60 @@
+[33mcommit fbae55bfb43e15c6836ca187ce5eb66dfec4530c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mremote/master[m[33m)[m
+Merge: d6120e0 13108f6
+Author: Longway <505386930@qq.com>
+Date:   Thu Jun 18 12:55:59 2020 +0800
+
+    Merge branch 'master' of https://github.com/lonmon/greedySnake
+
+[33mcommit d6120e0826c75a5fecd24e299737fec45d3fe110[m
+Author: Longway <505386930@qq.com>
+Date:   Thu Jun 18 12:51:46 2020 +0800
+
+    重新开始分数bug修复
+
+[33mcommit 13108f66a07cf02c6ae9a191915c771d8d2f8787[m
+Author: longway <43658905+lonmon@users.noreply.github.com>
+Date:   Thu Jun 18 12:45:50 2020 +0800
+
+    Set theme jekyll-theme-leap-day
+
+[33mcommit d557fe77e5492cd46a5d46b517ace05f852874cb[m[33m ([m[1;31mremote/gh-pages[m[33m)[m
+Author: longway <43658905+lonmon@users.noreply.github.com>
+Date:   Thu Jun 18 12:21:32 2020 +0800
+
+    Rename snake.html to index.html
+
+[33mcommit 45b9cfd6789eb8cba9486d37fd05bfbe51cb0598[m
+Author: longway <43658905+lonmon@users.noreply.github.com>
+Date:   Thu Jun 18 12:12:45 2020 +0800
+
+    Update README.md
+
+[33mcommit 9c7317b9e3969f8d4ecf30b4798db947ab4ab53f[m
+Author: longway <43658905+lonmon@users.noreply.github.com>
+Date:   Thu Jun 18 12:09:05 2020 +0800
+
+    Set theme jekyll-theme-leap-day
+
+[33mcommit e9eb1a87c0538b105bd6b3f6228dd6f224349e35[m
+Author: longway <43658905+lonmon@users.noreply.github.com>
+Date:   Thu Jun 18 12:08:30 2020 +0800
+
+    Set theme jekyll-theme-cayman
+
+[33mcommit 1e3193f66a2db04913e9aa166265b57913104cef[m
+Author: longway <43658905+lonmon@users.noreply.github.com>
+Date:   Thu Jun 18 12:05:44 2020 +0800
+
+    Set theme jekyll-theme-cayman
+
+[33mcommit 5d4c7f4abbfd0622f5f0ef3afc19a58bcb6db695[m
+Author: Longway <505386930@qq.com>
+Date:   Thu Jun 18 12:00:14 2020 +0800
+
+    初步完成
+
+[33mcommit 94e6c0005c535f47674a87f5f8714eb97d745973[m
+Author: longway <43658905+lonmon@users.noreply.github.com>
+Date:   Thu Jun 18 11:58:11 2020 +0800
+
+    Initial commit
