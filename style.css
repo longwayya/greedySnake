@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: #95afc0;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+#initpage {
+  position: absolute;
+  /* display: none; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: #95afc0;
+}
+.startgame {
+  width: 7rem;
+  height: 3rem;
+  background: #f0932b;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 30rem;
+  width: 30rem;
+  max-height: 480px;
+  max-width: 480px;
+}
+.pause {
+  float: right;
+  margin: 1rem;
+
+  width: 4rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+.cell {
+  width: 1rem;
+  height: 1rem;
+  border-top: solid 1px #777;
+  border-left: solid 1px #777;
+  background: #0a3d62;
+  box-sizing: border-box;
+}
+.snake {
+  background: rgb(239, 239, 239);
+}
+.food {
+  background: red;
+}
+
+.score {
+  font-size: 1.4rem;
+  display: inline-block;
+  margin: 1rem;
+}
+#endpage {
+  display: none;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.endScore {
+  font-size: 3rem;
+}
+.endIsWin {
+  color: red;
+  font-size: 3rem;
+}
+.reStart {
+  font-size: 2rem;
+  width: 10rem;
+  height: 4rem;
+  background: #fab1a0;
+}
