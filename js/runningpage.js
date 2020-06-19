@@ -80,7 +80,7 @@ function initSnakeBody() {
   scoreDOM.innerHTML = score;
   //初始得到蛇头  随机得到3个格子作为蛇身
   let { x, y } = randomXY();
-  for (let i = 0; i < 29; i++) {
+  for (let i = 0; i < 3; i++) {
     y--;
     let o = dealPlace({ x, y });
     snakeBody.push(o);
@@ -184,4 +184,28 @@ reStartDOM.addEventListener("click", () => {
     run();
   }, 100);
   runningpage.style.display = "block";
+});
+
+let moveStart = null;
+let moveEnd = null;
+document.body.addEventListener("touchstart", function (e) {
+  moveStart = { x: e.targetTouches[0].clientX, y: e.targetTouches[0].clientY };
+});
+document.body.addEventListener("touchend", function (e) {
+  moveEnd = { x: e.changedTouches[0].clientX, y: e.changedTouches[0].clientY };
+  let moveX = moveEnd.x - moveStart.x;
+  let moveY = moveEnd.y - moveStart.y;
+  let moveDirection = null;
+  if (Math.abs(moveY) > Math.abs(Math.abs(moveX))) {
+    moveDirection = moveY > 0 ? direction.down : direction.up;
+  } else {
+    moveDirection = moveX > 0 ? direction.right : direction.left;
+  }
+  snakeDirection =
+    (snakeDirection.x === moveDirection.x &&
+      snakeDirection.y === -moveDirection.y) ||
+    (snakeDirection.y === moveDirection.y &&
+      snakeDirection.x === -moveDirection.x)
+      ? snakeDirection
+      : moveDirection;
 });
