@@ -1,5 +1,5 @@
 ## demo演示
-https://lonmon.github.io/greedySnake/
+https://longwayya.github.io/greedySnake/
 
 
 ## Welcome to GitHub Pages
